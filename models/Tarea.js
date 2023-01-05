@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 // *Definir el esquema de tarea---------------------------------------
 const tareaSchema = mongoose.Schema({
-    tarea: {
+    nombre: {
         type: String,
         trim: true,
         required: true
